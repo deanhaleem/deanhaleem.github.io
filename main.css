@@ -89,3 +89,14 @@ p
 iframe {
 	margin-top: 5px;
 }
+
+.contact-icon
+{
+	padding-top: 100px;
+}
+
+.project-image
+{
+	height: 400px;
+	width: 575px;
+}
