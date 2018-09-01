@@ -21,18 +21,18 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  background-color: darkseagreen;
 }
 
 .carousel:hover img
 {
 	transition: .5s ease;
-  	opacity: 0.3;
+	opacity: 0.5;
 }
 
 .carousel:hover a
 {
-	transition: .5s ease;
-  	opacity: 1;
+	opacity: 1;
 }
 
 .container-fluid
@@ -58,6 +58,12 @@
 {
 	height: 400px;
 	width: 400px;
+}
+
+.education
+{
+	height: 400px;
+	width: 300px;
 }
 
 .carousel
