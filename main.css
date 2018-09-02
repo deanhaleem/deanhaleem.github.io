@@ -35,11 +35,9 @@
 	opacity: 1;
 }
 
-.container-fluid
+.container
 {
-	padding-left: 200px;
-	padding-right: 200px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .carousel-item .game
