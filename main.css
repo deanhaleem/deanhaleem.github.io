@@ -30,14 +30,14 @@
   }
   .navbar .navbar-nav .nav-item.active{
 	color: #ecf0f1;
-	background-color: #c0392b;
+	background-color: #c03a2c;
   }
   .navbar .navbar-toggle {
-	border-color: #c0392b;
+	border-color: #c03a2c;
   }
   .navbar .navbar-toggle:hover,
   .navbar .navbar-toggle:focus {
-	background-color: #c0392b;
+	background-color: #c03a2c;
   }
   .navbar .navbar-toggle .navbar-toggler-icon {
 	color: #ecf0f1;
