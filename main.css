@@ -72,7 +72,8 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  background-color: darkseagreen;
+	background-color: #300d61;
+	border-color: transparent;
 }
 
 .carousel:hover img
@@ -84,6 +85,11 @@
 .carousel:hover a
 {
 	opacity: 1;
+}
+
+.carousel a:hover {
+	background-color: #c03a2c;
+	border-color: transparent;
 }
 
 .container
