@@ -32,16 +32,10 @@
 	color: #ecf0f1;
 	background-color: #c03a2c;
   }
-  .navbar .navbar-toggle {
-	border-color: #c03a2c;
+  .navbar .navbar-toggler {
+		background-color: #c03a2c;
   }
-  .navbar .navbar-toggle:hover,
-  .navbar .navbar-toggle:focus {
-	background-color: #c03a2c;
-  }
-  .navbar .navbar-toggle .navbar-toggler-icon {
-	color: #ecf0f1;
-  }
+
   .navbar .navbar-collapse,
   .navbar .navbar-form {
 	border-color: #ecf0f1;
