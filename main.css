@@ -32,10 +32,13 @@
   .navbar .navbar-nav .nav-link:not(.disabled):focus {
 	color: #ffbbbc;
   }
-  .navbar .navbar-nav .nav-item.active{
+	.navbar .navbar-nav .nav-item.active,
+	.navbar .navbar-nav .nav-item.dropdown .active
+	{
 	color: #ecf0f1;
 	background-color: #c03a2c;
-  }
+	}
+
   .navbar .navbar-toggler {
 		background-color: #c03a2c;
   }
@@ -136,6 +139,12 @@ h1
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-family: 'Voces', 'sans-serif';
+}
+
+.project-header 
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .bio img

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dean Haleem - Mario Clone</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="..\main.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="..\index.html">Dean Haleem</a>
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Mario Clone</a>
+                    <a class="dropdown-item" href="RobotProject.html">FEH Robot Competition</a>
+                </div>
+            </li>
+		      <a class="nav-item nav-link" href="..\education.html">Education</a>
+		      <a class="nav-item nav-link" href="..\about.html">About</a>
+					<a class="nav-item nav-link" href="..\contact.html">Contact</a>
+					<a class="nav-item nav-link" href="..\content/ResumeOnline.pdf" target="_blank">Resume</a>
+		    </div>
+		  </div>
+
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link social-icon" href="https://github.com/deanhaleem" target="_blank"><i class="fa fa-github"></i></a>
+		      <a class="nav-item nav-link social-icon" href="https://instagram.com/deanhaleem" target="_blank"><i class="fa fa-instagram"></i></a>		      
+		      <a class="nav-item nav-link social-icon" href="https://www.linkedin.com/in/deanhaleem" target = "_blank"><i class="fa fa-linkedin"></i></a>
+		    </div>
+		  </div>
+		</nav> 
+
+		<div class="container">
+            <h3 class="text-center project-header"><strong>Original Super Mario Bros Clone - CSE 3902</strong></h3>
+            <iframe width="550" height="400" class="d-block mx-auto" src="https://www.youtube.com/embed/R2F_g45ArcY" allowfullscreen> </iframe> 
+            <p><strong>Languages:</strong> C#</p>
+            <p><strong>Tools:</strong> Visual Studio 2017, <a href="http://www.monogame.net/" target="_blank">MonoGame</a></p>
+            <p><strong>Project Description</strong></p>
+			<p>
+				Created a clone of the first level of Super Mario Bros in teams of four, using Agile Scrum methodologies.
+				The project introduced fundamental concepts to writing readable and maintainable code. 
+				The project was divided into four sprints, each lasting about two weeks. 
+				I have to keep the repository private, but feel free to <a href="contact.html">contact me</a> and, I can share 
+				the code with you.
+            </p>	
+            <p><strong>Sprint Details*</strong></p>	
+            <p><strong>Sprint 1</strong></p>
+            <p>
+                    <ul>
+                            <li>Continue to familiarize yourself with the software tools for project progress tracking and source code control.
+                            <li>Create interfaces for different types of 2D platforming game elements/objects (examples could include: players, enemies, items, projectiles, platforms, blocks)
+                            <li>Create a class for each object included in the first level of your game.
+                            <li>Implement the animation (update + draw) for the default state of each object.
+                            <li>Implement the animation (update + draw) for all possible states of the player character
+                                that can be reached via user input (i.e. pressing left/right/up/down, run, and jump buttons) and
+                                by gaining items, except for temporary powers (i.e. star in Mario Bros.)
+                            <li>Note: you do not need to implement up/down/left/right motion for objects, just state and animation frame changes.
+                    </ul> 
+            </p>
+            <p><strong>Sprint 2</strong></p>
+            <p>
+                    <ul>
+                            <li>Implement up/down/left/right movement for Mario. It should <u>not</u> be physically based / jumping based. Move Mario left when left is pushed, up when up is pushed, etc. The visual effect is the same motion for a top-down 2D game such as the original Legend of Zelda. Diagonal movement is possible when pushing multiple keys at the same time.
+                            <li>Implement state transitions, collision detection, and collision response for Mario vs. enemies, blocks, and items.
+                              Mario should not be able to pass through blocks and any state changes for objects occur instantly 
+                              (i.e. you do not have to animate between states after Mario gains an item or takes damage).
+                            <li>Add background elements (clouds and bushes) as individual objects or as part of one background image.
+                            <li>Define a level via a csv or xml file and write code to initialize objects based on the file's contents.
+                            <li>Create an artificial level that contains an instance of Mario and all types of blocks, pipes, powerups/items, and enemies that are found in level 1-1, 
+                            but place them such that they all fit on the screen at the same time. The image below displays one possible arrangement. For this sprint, inclusion of the flagpole and castle are optional.
+                          </ul>
+            </p>
+            <p><strong>Sprint 3</strong></p>
+            <p>
+                    <ul>
+                            <li>Implement the core gameplay of a 2D platforming game.
+                            <li>Update your level file to include all of the objects in the first level of your game.
+                                Additionally, at the start of the level add an instance of every block and item type. That way you (and the grader) will save time during manual testing.
+                            <li>Implement movement and jumping for the player character (Mario).
+                            <li>Implement the player's transitional states (changing powerups or taking damage).
+                            <li>Implement movement for enemies.
+                            <li>Implement movement for powerups and items.
+                            <li>Add any projectiles made by players or enemies (Mario's fireballs).
+                            <li>Add movement for blocks and platforms (where applicable, such as block bumping).
+                            <li>Update collision detection and handling to deal with the new types of moving objects.
+                                You may also need to make modifications to handle cases where objects are colliding with two other objects at the same time (ex: mario intersecting with two blocks)
+                            <li>Add a scrolling camera (you may or may not enforce the restriction of never scrolling back to the left - better yet use an interface and implement both!).
+                            <li>Implement resetting the level upon the player character's death.
+                          </ul>
+            </p>
+            <p><strong>Sprint 4</strong></p>
+            <p>
+                <ul>
+                        <li>Add the Heads Up Display.
+                        <li>Add sounds. Note: Many machines seem to not play sounds when using Monogame V3.5. Reinstalling DirectX should fix this.
+                        <li>Add points and the score system, make sure you get extra points for jumping on enemies without hitting the ground.
+                        <li>Add coins, the coin system, and lives.
+                        <li>Implement game state transitions:
+                        <ul>
+                            <li>The remaining lives screen before/after deaths
+                            <li>Warp pipe transition to secret underground room (and coming back up again)
+                            <li>Pausing
+                            <li>The winning game state and flagpole animation when Mario reaches the end of the level
+                        </ul>
+                        <li>Implement any other features you deem necessary for copying gameplay on level 1-1.
+                        <li>Remove all magic numbers and strings by making utility classes (and optionally inputing their values from a file).
+                    </ul>
+            </p>
+            <p><strong>*Sprint information taken from <a href="http://web.cse.ohio-state.edu/~boggus.2/3902/" target="_blank"></a>
+            course website</strong></p>.
+		</div>
+
+		<div class='footer'>
+			<footer class='page-footer font-small indigo pt-0 mt-3'>
+					<div class='footer-copyright py-3 text-center border-top border-dark'>
+							Dean Haleem
+					</div>
+			</footer>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="	sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>
