@@ -204,9 +204,21 @@ iframe {
 	}
 
 	.mario {
-		color: #ecf0f1;
+		color: #300d61;
 	}
 
 	.mario:hover {
 		color: #ffbbbc;
 	}
+
+	.background-mario {
+		background-image: url("images/background-mario.png");
+		background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% top;
+    background-attachment: fixed;
+}
+
+.mario-text {
+	color: #ecf0f1;
+}
