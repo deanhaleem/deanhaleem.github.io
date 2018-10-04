@@ -202,3 +202,11 @@ iframe {
 		background-color: #300d61;
 		color: #ecf0f1;
 	}
+
+	.mario {
+		color: #ecf0f1;
+	}
+
+	.mario:hover {
+		color: #ffbbbc;
+	}
