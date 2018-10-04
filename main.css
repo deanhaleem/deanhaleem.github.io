@@ -175,9 +175,30 @@ iframe {
 {
 	height: 400px;
 	width: 575px;
+	margin-bottom: 40px;
 }
 
 .ed-header
 {
 	padding-top: 20px;
 }
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	}
+
+	.dropdown-menu {
+		margin-top: 0px;
+		background-color: #c07c7e;
+	}
+
+	.dropdown-item
+	{
+		color: #ecf0f1;
+	}
+
+	.dropdown-item:hover
+	{
+		background-color: #300d61;
+		color: #ecf0f1;
+	}
