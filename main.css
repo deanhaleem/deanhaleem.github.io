@@ -71,6 +71,7 @@
 .welcome-text {
     font-size: 40px;
     font-family: 'Source Code Pro', monospace;
+    padding-top: 70px;
 }
 
 .intro-overlay {
