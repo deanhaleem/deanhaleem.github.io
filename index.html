@@ -1,19 +1,28 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Dean, Haleem, OSU, Ohio, State, CSE, Computer, Science">
     <meta name="description" content="Dean Haleem&#39;s personal website.">
-    <meta name="author" content="Dean Haleem"> 
+    <meta name="author" content="Dean Haleem">
+
     <title>Dean Haleem</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- http://konpa.github.io/devicon/ CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<body style="background-color : #a4fcaf">
-    <nav class="navbar navbar-expand-lg navbar-light">
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">Dean Haleem</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,100 +31,164 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                 <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle project-drop" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    </a>               
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="projects/mario_clone.html">Mario Clone</a>
                         <a class="dropdown-item" href="projects/unity.html">Unity</a>
-                        <a class="dropdown-item" href="projects/personal_website.html">Personal Website</a>
-                        <a class="dropdown-item" href="projects/robot_project.html">FEH Robot Competition</a>
+                        <a class="dropdown-item" href="projects/robot_project.html">FEH Robot</a>
                     </div>
-                </li>
-                <a class="nav-item nav-link" href="education.html">Education</a>
+                </div>
                 <a class="nav-item nav-link" href="about.html">About</a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
-                <a class="nav-item nav-link" href="content/ResumeOnline.pdf" target="_blank">Resume</a>
+                <a class="nav-item nav-link" href="content/ResumeOnline.pdf" target="_blank">R&eacute;sum&eacute;</a>
             </div>
         </div>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link social-icon" href="https://github.com/deanhaleem" target="_blank"><i class="fa fa-github"></i></a>
-                <a class="nav-item nav-link social-icon" href="https://instagram.com/deanhaleem" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a class="nav-item nav-link social-icon" href="https://www.linkedin.com/in/deanhaleem" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="nav-item nav-link social-icon" href="https://github.com/deanhaleem" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="nav-item nav-link social-icon" href="https://instagram.com/deanhaleem" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="nav-item nav-link social-icon" href="https://www.linkedin.com/in/deanhaleem" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row welcome">
-            <div class="col-md-6">
-                <iframe width="550" height="400" class="d-block mx-auto" src="https://www.youtube.com/embed/VKNOURaNKcs" allowfullscreen></iframe>
+    <div class="container-fluid">
+        <!-- Welcome -->
+        <div class="row bg-dark welcome-overlay justify-content-around">
+            <div class="col-1"></div>
+            <div class="col-5 align-self-center">
+                <p class="text-center about-text welcome-text">
+                    Hello, World! I'm Dean.
+                </p>
+                <p class="text-center about-text welcome-text">
+                    Welcome to my website.
+                </p>
             </div>
-            <div class="col-md-6">
-                <h2 class="text-center"><strong>Welcome to my website</strong></h2>
-                <p>
-                    I'm a third year Computer Science and Engineering student at the Ohio State University. I love to code in my freetime,
-                    particularly looking into how to make games.
+            <div class="col-5">
+                <img class="welcome-image rounded content" src="images/dean.png">
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <!-- Mario, words about it and game dev -->
+        <div class="row bg-primary justify-content-around intro-overlay">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <iframe class="content" width="560" height="400" src="https://www.youtube.com/embed/VKNOURaNKcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-5 align-self-center">
+                <p class="text-center about-text extra" style="font-weight: 700">
+                    Here is a short video of the <a href="projects/mario_clone.html" style="color: red">Super Mario Bros Clone</a> I made in CSE 3902. 
+                    The class itself wasn't exactly focused on game development, but it definitely served as a good starting point.
+                    This video is of the game after I redid the project on my own. It isn't perfect, but this project alone 
+                    has taught me so much about code quality and what goes into / what it means to have a maintainable system.
+                    While I don't make this project public, I have another public project that uses the engine I built for this 
+                    game on <a href="https://github.com/deanhaleem/Cape-Hero" style="color: red" target="_blank">github</a>.
                 </p>
-                <p>
-                    To the left is the finished product of the
-                    <a href="projects/mario_clone.html">Super Mario Bros clone</a> I made
-                    in CSE 3902 at OSU. I worked in a team of four and enjoyed every minute of it.
-                </p>
-                <p>
-                    Feel free to look around and see what else I've done. And be sure to <a href="contact.html">contact me</a> if you'd like to get in touch.
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <!-- Projects and about, with short bio in the middle -->
+        <div class="row overlay justify-content-around align-items-center">
+            <div class="col-4">
+                <p class="text-center about-text extra" style="font-weight: 700">
+                    I'm a third year Computer Science student at The Ohio State University. I love to code in my free time, 
+                    particularly focusing on game development. As far as going deeper than that, I'm still looking around. I've 
+                    enjoyed topics such as AI and animation, but am still trying to find one that is for me. While I do prefer 
+                    game development, that isn't to say I'm not looking to work in another part of the industry. I'm always 
+                    looking for new ways I can use programming, so I'm always happy to try a new topic outside of my comfort 
+                    zone.
                 </p>
             </div>
         </div>
 
-        <div class="row">           
-            <div class="col-md-6 inline-block">
-                <h3 class="text-center"><strong>Interests</strong></h3>
-                <div class="row interest-button justify-content-center">
-                    <img src="images/defending.png" class="inline-block mx-auto interest-image align-middle">
-                    <a class="btn btn-primary mx-auto" type="submit" href="interests/gameai.html">Game AI</a>
-                </div>
-                <div class="row interest-button justify-content-center">
-                    <img src="images/quality.png" class="inline-block mx-auto interest-image">
-                    <a class="btn btn-primary" type="submit" href="interests/codequality.html">Code Quality</a>
-                </div>
-                <div class="row interest-button justify-content-center">
-                    <img src="images/freljord.jpg" class="inline-block mx-auto interest-image">
-                    <a class="btn btn-primary" type="submit" href="interests/games.html">Games</a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div id="carousel2" class="carousel slide mx-auto inline-block" data-ride="carousel">
+        <!-- Skills -->
+        <div class="row project-overlay justify-content-center">
+            <div class="col-4 align-self-center">
+                <div id="carousel2" class="carousel slide content" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block about rounded" src="images/prom.png" alt="First slide">
+                            <img class="about rounded" src="images/prom.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block about rounded" src="images/nate.png" alt="Second slide">
+                            <img class="about rounded" src="images/nate.png" alt="Second slide">
                         </div>
-                        <div class="carousel-item about">
-                            <img class="d-block about rounded" src="images/soccer.png" alt="Third slide">
+                        <div class="carousel-item">
+                            <img class="about rounded" src="images/soccer.png" alt="Third slide">
                         </div>
                     </div>
                     <a class="btn btn-primary justify-content-center" type="submit" href="about.html">About</a>
                 </div>
             </div>
+            <div class="col-4 align-self-center">
+                <h2 class="text-center about-text" style="font-weight: 900">Skills</h2>
+                <i class="devicon-csharp-plain-wordmark skill content"></i>
+                <i class="devicon-visualstudio-plain skill content"></i>
+                <i class="devicon-java-plain-wordmark skill content"></i>
+            </div>
+            <div class="col-4 align-self-center">
+                <div id="carousel2" class="carousel slide content" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class=" about rounded" src="images/overworld.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class=" about rounded" src="images/background.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class=" about rounded" src="images/unitycrop.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="btn btn-primary justify-content-center" type="submit" href="projects.html">Projects</a>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class='footer'>
-        <footer class='page-footer font-small indigo pt-0 mt-3'>
-            <div class='footer-copyright py-3 text-center border-top border-dark'>
-                Dean Haleem
+    <footer class="section footer-classic context-dark bg-image" style="background: black">
+        <div class="container">
+            <div class="row justify-content-center row-30">
+                <div class="col-md-4 col-xl-5 align-self-center">
+                    <div class="pr-xl-4">
+                        <p class="footer-text about-text content">
+                            Thank you for taking the time to visit my website. Please, have a look around, and always feel free 
+                            to get in touch.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <dl class="contact-list">
+                        <dt class="footer-text">email:</dt>
+                        <dd><a href="mailto:deanhaleem.10@gmail.com" class="footer-text">deanhaleem.10@gmail.com</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3 align-self-center">
+                    <ul class="nav-list">
+                        <li class="about-text footer-text">Links:</li>
+                        <li><a href="interests/games.html" class="footer-text">Videogames</a></li>
+                        <li><a href="interests/codequality.html" class="footer-text">Code Quality</a></li>
+                    </ul>
+                </div>
             </div>
-        </footer>
-    </div>
+        </div>
+        <div class="row no-gutters social-container">
+            <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/deanhaleem" target="_blank">linkedIn</a></div>
+            <div class="col"><a class="social-inner" href="https://instagram.com/deanhaleem" target="_blank">instagram</a></div>
+            <div class="col"><a class="social-inner" href="https://twitter.com/deanhaleem" target="_blank">twitter</a></div>
+            <div class="col"><a class="social-inner" href="https://github.com/deanhaleem" target="_blank">github</a></div>
+        </div>
+    </footer>
 
+    <!-- Boostrap javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="	sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- My javascript -->
+    <script type="text/javascript" src="test.js"></script>
 </body>
 </html>
