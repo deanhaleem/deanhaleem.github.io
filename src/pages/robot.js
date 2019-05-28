@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import CourseImage from "../images/robot-path.png";
+import RobotImage from "../images/robot.jpg";
 
 class RobotPage extends Component {
   state = {};
@@ -18,7 +19,7 @@ class RobotPage extends Component {
             <MDBCol md="5">
               <figure className="figure" className="text-center">
                 <img
-                  src="https://deanhaleem.com/images/robot.jpg"
+                  src={RobotImage}
                   className="figure-img img-fluid z-depth-1"
                   alt=""
                 />
