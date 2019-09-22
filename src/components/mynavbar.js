@@ -54,6 +54,12 @@ class MyNavbar extends Component {
                   <Link className="dropdown-item" to="/mario_clone/">
                     Mario Clone
                   </Link>
+                  <Link className="dropdown-item" to="/find_the_t/">
+                    Find The T!
+                  </Link>
+                  <Link className="dropdown-item" to="/myopgg/">
+                    MyOPgg
+                  </Link>
                   <Link className="dropdown-item" to="/unity/">
                     Unity
                   </Link>
@@ -71,6 +77,16 @@ class MyNavbar extends Component {
               <Link className="nav-link" to="/about/">
                 About
               </Link>
+            </MDBNavItem>
+            <MDBNavItem>
+              <a className="nav-link" href={"http://deangg.com"} target="_blank">
+                MyOPgg
+              </a>
+            </MDBNavItem>
+            <MDBNavItem>
+              <a className="nav-link" href={"http://deangg.com/FindTheT"} target="_blank">
+                Find The T!
+              </a>
             </MDBNavItem>
             <MDBNavItem>
               <a className="nav-link" href={Resume} target="_blank">

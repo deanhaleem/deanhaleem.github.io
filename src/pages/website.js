@@ -78,7 +78,7 @@ class WebsitePage extends Component {
                 <strong>Language(s):</strong> HTML, CSS
               </p>
               <p>
-                <strong>Tools:</strong> Gatsby, React.js
+                <strong>Tools:</strong> Gatsby, React.js, MDBootstrap
               </p>
             </MDBCol>
           </MDBRow>
@@ -88,7 +88,7 @@ class WebsitePage extends Component {
               <p>
                 This website is mainly just a place for me to store links to my
                 projects in one place. Especially being in school, I can't just
-                put everything on github and tell people to look there. As I've
+                put everything on GitHub and tell people to look there. As I've
                 developed it though, it has also become a project itself. I'm
                 still very new when it comes to designing and using the newest
                 technologies, so I'm always open to feedback. As a result of
