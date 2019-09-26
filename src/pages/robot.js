@@ -155,7 +155,7 @@ class RobotPage extends Component {
                 out we needed to move to the side more, we could just make the
                 field goals further apart.
               </p>
-              <figure className="figure" className="text-center">
+              {/* <figure className="figure" className="text-center">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg"
                   className="figure-img img-fluid z-depth-1"
@@ -166,7 +166,7 @@ class RobotPage extends Component {
                   Slightly hard to see, but towards the top right of the robot,
                   the wooden fork with the pen cap is what we came up with.
                 </figcaption>
-              </figure>
+              </figure> */}
             </MDBCol>
           </MDBRow>
           <MDBRow>

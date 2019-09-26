@@ -56,6 +56,10 @@ class FindTheTPage extends Component {
                         </MDBCol>
                         <MDBCol md="3" className="align-self-center">
                             <p>
+                                <strong>Source Code: </strong>                              
+                                <a href={"https://github.com/deanhaleem/find-the-t"} target="_blank">GitHub</a>
+                            </p>
+                            <p>
                                 <strong>Play it: </strong>
                                 <a href={"http://deangg.com/FindTheT"} target="_blank">Here</a>
 
@@ -73,6 +77,21 @@ class FindTheTPage extends Component {
                             <strong>Project Description</strong>
                             <p>
                                 A very simple game in which the player must find the correct T amongst a bunch of fakes.
+                            </p>
+                        </MDBCol>
+                    </MDBRow>
+                    <MDBRow>
+                        <MDBCol>
+                            <strong>The Goal</strong>
+                            <p>
+                                I had a lot of projects that were half finished, and I also had projects that were never really meant
+                                to be finished games, but just exist to teach me a certain thing. I wanted to make something that I could
+                                fully deploy somewhere, and a simply mobile game seemed like the best place to go.
+                            </p>
+                            <p>
+                                I used to play this game called Don't Step the White Tile. I always thought it was cool how the game had
+                                no audio or cool visuals or anything. It was just the player tapping black tiles, trying not to tap the 
+                                white ones. I made this game simple, going for that same style.
                             </p>
                         </MDBCol>
                     </MDBRow>

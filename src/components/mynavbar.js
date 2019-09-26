@@ -47,10 +47,10 @@ class MyNavbar extends Component {
                   Projects
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <Link className="dropdown-item" to="/projects/">
+                  {/* <Link className="dropdown-item" to="/projects/">
                     Overview
                   </Link>
-                  <MDBDropdownItem divider />
+                  <MDBDropdownItem divider /> */}
                   <Link className="dropdown-item" to="/mario_clone/">
                     Mario Clone
                   </Link>

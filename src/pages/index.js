@@ -14,8 +14,8 @@ import SEO from "../components/seo";
 import MyCard from "../components/mycard";
 
 import MarioImage from "../images/overworld.png";
-import UnityImage from "../images/unitycrop.png";
-import RobotImage from "../images/robot.jpg";
+import OpImage from "../images/myopggthumb.png";
+import TImage from "../images/findthet-playthumb.png";
 
 class App extends Component {
   render() {
@@ -54,8 +54,7 @@ class App extends Component {
                       <Link to="/mario_clone/">Super Mario Bros clone</Link> I
                       made in CSE 3902. The class itself wasn't exactly focused
                       on game development, but it definitely served as a good
-                      starting point. This video is of the game after I redid
-                      the project on my own. It isn't perfect, but this project
+                      starting point. It isn't perfect, but this project
                       alone has taught me so much about code quality and what
                       goes into / what it means to have a maintainable system.
                       Check out the code on{" "}
@@ -82,18 +81,18 @@ class App extends Component {
                       title="Mario Clone"
                       text="A clone of the first level of the original Super Mario Bros. Made with MonoGame."
                       project="/mario_clone/"
+                    /> 
+                    <MyCard
+                      imageSource={OpImage}
+                      title="MyOP.gg"
+                      text="Small subset of op.gg that provides simple champion mastery and match history stats. Made with RiotSharp."
+                      project="/myopgg/"
                     />
                     <MyCard
-                      imageSource={UnityImage}
-                      title="Unity"
-                      text="Small, simply Unity projects. Made to help learn Unity but also to help learn concepts in general, such as Inverse Kinematics and other graphics ideas."
-                      project="/unity/"
-                    />
-                    <MyCard
-                      imageSource={RobotImage}
-                      title="FEH Robot"
-                      text="FEH Robot competition where we built a robot in teams of four. The goal was to complete a course while doing certain tasks as fast as possible. "
-                      project="/robot/"
+                      imageSource={TImage}
+                      title="Find The T!"
+                      text="2D mobile game where the player must find the perfect T amongst fake Ts. Made with Unity."
+                      project="/find_the_t/"
                     />
                   </MDBCardGroup>
                 </MDBRow>
